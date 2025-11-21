@@ -30,7 +30,7 @@ const ArtistList = () => {
       'telegdi-balazs': 'https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/telegdibalazs_portre_telegdibalazs-LK9Fq.jpg',
       'minime': 'https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/img_3515-fZ4OW.jpg',
       'korponay-csilla': 'https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/korponai-csilla-portre-4kIBG.jpg',
-      'kaiser-fanni': 'https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/fafi-portre-Wn1ud.jpg',
+      'kaiser-fanni': '/images/kaiser-fanni/kf-portre.jpg',
       'magyar-balint': 'https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/mbd-portre-VgUZh.jpg',
       'lantos-judit': 'https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/lantos-judit-portre-is1AV.jpg'
     };
