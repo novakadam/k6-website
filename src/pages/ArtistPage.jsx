@@ -192,7 +192,7 @@ const ArtistPortraits = ({
     }} src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/korponai-csilla-portre-4kIBG.jpg" />,
     'kaiser-fanni': <img alt="Portrait of Kaiser Fanni" className="w-full h-full object-cover" style={{
       borderRadius: '48px 12px 48px 12px'
-    }} src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/korponai-csilla-portre-4kIBG.jpg" />,
+    }} src="/images/kaiser-fanni/kf-portre.jpg" />,
     'magyar-balint': <img alt="Portrait of Kaiser Fanni" className="w-full h-full object-cover" style={{
       borderRadius: '48px 12px 48px 12px'
     }} src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/mbd-portre-VgUZh.jpg" />,
