@@ -26,7 +26,7 @@ import { toast } from '@/components/ui/use-toast';
     const body = `Név: ${name || ''}\nE-mail: ${email || ''}\n\nÜzenet:\n${message || ''}`;
 
     // e-mail kliens megnyitása
-    window.location.href = `mailto:novak.adam@gmail.com?subject=${encodeURIComponent(
+    window.location.href = `mailto:faficeramics@gmail.com?subject=${encodeURIComponent(
       finalSubject
     )}&body=${encodeURIComponent(body)}`;
 
