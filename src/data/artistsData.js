@@ -1,3 +1,5 @@
+// src/data/artistsData.js
+
 export const artistsData = {
   'franta-agi': {
     name: 'Franta Ági',
@@ -9,14 +11,51 @@ export const artistsData = {
       instagram: 'https://instagram.com/frantaagi'
     },
     gallery: [
-      { id: 'fa-1', title: 'Vessel Series I', year: '2024', description: 'Minimalist ceramic vessel with matte white glaze and organic form'},
-      { id: 'fa-2', title: 'Textured Bowl', year: '2024', description: 'Handbuilt ceramic bowl with carved surface texture in warm beige tones'},
-      { id: 'fa-3', title: 'Sculptural Form', year: '2023', description: 'Abstract ceramic sculpture with flowing curves and natural earth tones'},
-      { id: 'fa-4', title: 'Porcelain Collection', year: '2023', description: 'Set of delicate porcelain pieces with translucent quality'},
-      { id: 'fa-5', title: 'Stoneware Vase', year: '2024', description: 'Tall stoneware vase with subtle glaze variations and elegant proportions'},
-      { id: 'fa-6', title: 'Organic Series', year: '2023', description: 'Ceramic piece inspired by natural forms with earthy glazes'}
+      {
+        id: 'fa-1',
+        image: '/images/franta-agi/fa-work-01.jpg',
+        title: 'Vessel Series I',
+        year: '2024',
+        description: 'Minimalist ceramic vessel with matte white glaze and organic form'
+      },
+      {
+        id: 'fa-2',
+        image: '/images/franta-agi/fa-work-04.jpg',
+        title: 'Textured Bowl',
+        year: '2024',
+        description: 'Handbuilt ceramic bowl with carved surface texture in warm beige tones'
+      },
+      {
+        id: 'fa-3',
+        image: '/images/franta-agi/fa-work-03.jpg',
+        title: 'Sculptural Form',
+        year: '2023',
+        description: 'Abstract ceramic sculpture with flowing curves and natural earth tones'
+      },
+      {
+        id: 'fa-4',
+        image: '/images/franta-agi/fa-work-02.jpg',
+        title: 'Porcelain Collection',
+        year: '2023',
+        description: 'Set of delicate porcelain pieces with translucent quality'
+      },
+      {
+        id: 'fa-5',
+        image: '/images/franta-agi/fa-work-06.jpg',
+        title: 'Stoneware Vase',
+        year: '2024',
+        description: 'Tall stoneware vase with subtle glaze variations and elegant proportions'
+      },
+      {
+        id: 'fa-6',
+        image: '/images/franta-agi/fa-work-05.jpg',
+        title: 'Organic Series',
+        year: '2023',
+        description: 'Ceramic piece inspired by natural forms with earthy glazes'
+      }
     ]
   },
+
   'kaiser-fanni': {
     name: 'Kaiser Fanni',
     discipline: 'Keramikus',
@@ -32,21 +71,62 @@ Hiszek abban, hogy az alkotás öröm. Ezt az élményt szeretném továbbadni w
       instagram: 'https://instagram.com/kaiserfanni'
     },
     gallery: [
-      { id: 'kf-1', title: 'Pendant Light Series', year: '2024', description: 'Minimalist pendant light with geometric form and soft light diffusion'},
-      { id: 'kf-2', title: 'Floor Lamp Concept', year: '2024', description: 'Contemporary floor lamp with sculptural base and adjustable lighting'},
-      { id: 'kf-3', title: 'Wall Sconce', year: '2023', description: 'Architectural wall-mounted light fixture with clean lines' },
-      { id: 'kf-4', title: 'Pendant Light Series', year: '2024', description: 'Minimalist pendant light with geometric form and soft light diffusion'},
-      { id: 'kf-5', title: 'Floor Lamp Concept', year: '2024', description: 'Contemporary floor lamp with sculptural base and adjustable lighting'},
-      { id: 'kf-6', title: 'Wall Sconce', year: '2023', description: 'Architectural wall-mounted light fixture with clean lines' },
-      { id: 'kf-7', title: 'Wall Sconce', year: '2023', description: 'Architectural wall-mounted light fixture with clean lines'},
-
-
+      {
+        id: 'kf-1',
+        image: '/images/kaiser-fanni/kf-work-02.jpg',
+        title: 'Pendant Light Series',
+        year: '2024',
+        description: 'Minimalist pendant light with geometric form and soft light diffusion'
+      },
+      {
+        id: 'kf-2',
+        image: '/images/kaiser-fanni/kf-work-05.jpg',
+        title: 'Floor Lamp Concept',
+        year: '2024',
+        description: 'Contemporary floor lamp with sculptural base and adjustable lighting'
+      },
+      {
+        id: 'kf-3',
+        image: '/images/kaiser-fanni/kf-work-04.jpg',
+        title: 'Wall Sconce',
+        year: '2023',
+        description: 'Architectural wall-mounted light fixture with clean lines'
+      },
+      {
+        id: 'kf-4',
+        image: '/images/kaiser-fanni/kf-work-03.jpg',
+        title: 'Pendant Light Series',
+        year: '2024',
+        description: 'Minimalist pendant light with geometric form and soft light diffusion'
+      },
+      {
+        id: 'kf-5',
+        image: '/images/kaiser-fanni/kf-work-06.jpg',
+        title: 'Floor Lamp Concept',
+        year: '2024',
+        description: 'Contemporary floor lamp with sculptural base and adjustable lighting'
+      },
+      {
+        id: 'kf-6',
+        image: '/images/kaiser-fanni/kf-work-07.jpg',
+        title: 'Wall Sconce',
+        year: '2023',
+        description: 'Architectural wall-mounted light fixture with clean lines'
+      },
+      {
+        id: 'kf-7',
+        image: '/images/kaiser-fanni/kf-work-01.jpg',
+        title: 'Wall Sconce',
+        year: '2023',
+        description: 'Architectural wall-mounted light fixture with clean lines'
+      }
     ]
   },
-    'korponay-csilla': {
+
+  'korponay-csilla': {
     name: 'Korponay Csilla',
     discipline: 'Keramikus',
-      bio: `Régóta készítek kerámiát, az agyag részemmé vált, szinte nincs nap , hogy ne lenne a kezemben agyag. Leginkább a képlékenységéből adódó formálhatóságát szeretem. A természet formáit, a színek sokféleségét, megismétehetetlenségét próbálom visszaadni. Főleg állatokat készítek és örülök ha munkáim különböző lakásokban megtalálják a helyüket.
+    bio: `Régóta készítek kerámiát, az agyag részemmé vált, szinte nincs nap , hogy ne lenne a kezemben agyag. Leginkább a képlékenységéből adódó formálhatóságát szeretem. A természet formáit, a színek sokféleségét, megismétehetetlenségét próbálom visszaadni. Főleg állatokat készítek és örülök ha munkáim különböző lakásokban megtalálják a helyüket.
 Az agyag lehetőségeinek megismerése mellett az agyag és az alkotó folyamat terápiás hatásának megtapasztalása érdekel. Önmagunk felismerése az agyag érintésében, az alkotás folyamatában, az agyag munkában és annak változtatási , fejlődési útjai.
 Kisműhelyemben személyes foglalkozást is tartok, megbeszélés szerint.
  Ez egy közös munka , játék, kísérletezés, ami segít felfedezni a bennünk rejlő lehetőségeket.
@@ -57,12 +137,30 @@ Kisműhelyemben személyes foglalkozást is tartok, megbeszélés szerint.
       instagram: 'https://www.instagram.com/korponaykeramia/'
     },
     gallery: [
-      { id: 'kc-1', title: 'Expressive Bowl', year: '2024', description: 'Large ceramic bowl with gestural marks and rich textured glaze'},
-      { id: 'kc-2', title: 'Sculptural Vessel', year: '2024', description: 'Abstract ceramic form with layered glazes and organic shape'},
-      { id: 'kc-3', title: 'Installation Piece', year: '2023', description: 'Ceramic sculpture designed for architectural installation with bold presence'},
-
+      {
+        id: 'kc-1',
+        image: '/images/korponay-csilla/kc-work-01.jpg',
+        title: 'Expressive Bowl',
+        year: '2024',
+        description: 'Large ceramic bowl with gestural marks and rich textured glaze'
+      },
+      {
+        id: 'kc-2',
+        image: '/images/korponay-csilla/kc-work-02.jpg',
+        title: 'Sculptural Vessel',
+        year: '2024',
+        description: 'Abstract ceramic form with layered glazes and organic shape'
+      },
+      {
+        id: 'kc-3',
+        image: '/images/korponay-csilla/kc-work-03.jpg',
+        title: 'Installation Piece',
+        year: '2023',
+        description: 'Ceramic sculpture designed for architectural installation with bold presence'
+      }
     ]
   },
+
   'lantos-judit': {
     name: 'Lantos Judit',
     discipline: 'Keramikus',
@@ -83,14 +181,52 @@ Rendszeresen tartok workshopokat különböző témákban.`,
       instagram: 'https://www.instagram.com/lantosjuditceramics/'
     },
     gallery: [
-      { id: 'lj-1', title: 'Woven Landscape', year: '2024', description: 'Large-scale wall hanging with abstract landscape forms'},
-      { id: 'lj-2', title: 'Silk Sculpture', year: '2024', description: 'Sculptural textile piece made from hand-dyed silk'},
-      { id: 'lj-3', title: 'Fiber Study', year: '2023', description: 'Experimental weaving combining various natural fibers'},
-      { id: 'lj-4', title: 'Natural Dyes Series', year: '2023', description: 'Collection of textiles colored with plant-based dyes'},
-      { id: 'lj-5', title: 'Textured Weave', year: '2024', description: 'Intricate weaving with a highly tactile surface'},
+      {
+        id: 'lj-1',
+        image: '/images/lantos-judit/lj-work-01.jpg',
+        title: 'Woven Landscape',
+        year: '2024',
+        description: 'Large-scale wall hanging with abstract landscape forms'
+      },
+      {
+        id: 'lj-2',
+        image: '/images/lantos-judit/lj-work-04.jpg',
+        title: 'Silk Sculpture',
+        year: '2024',
+        description: 'Sculptural textile piece made from hand-dyed silk'
+      },
+      {
+        id: 'lj-3',
+        image: '/images/lantos-judit/lj-work-02.jpg',
+        title: 'Fiber Study',
+        year: '2023',
+        description: 'Experimental weaving combining various natural fibers'
+      },
+      {
+        id: 'lj-4',
+        image: '/images/lantos-judit/lj-work-03.jpg',
+        title: 'Natural Dyes Series',
+        year: '2023',
+        description: 'Collection of textiles colored with plant-based dyes'
+      },
+      {
+        id: 'lj-5',
+        image: '/images/lantos-judit/lj-work-05.jpg',
+        title: 'Textured Weave',
+        year: '2024',
+        description: 'Intricate weaving with a highly tactile surface'
+      },
+      {
+        id: 'lj-6',
+        image: '/images/lantos-judit/lj-work-06.jpg',
+        title: 'Installation View',
+        year: '2023',
+        description: 'Textile installation in a gallery setting'
+      }
     ]
   },
-  'minime': {
+
+  minime: {
     name: 'Minime',
     discipline: 'Ruhatervező',
     bio: `Egyszerűen nőies ~ Nőiesen kényelmes 
@@ -114,22 +250,57 @@ A fenntarthatóságot szem előtt tartva, az őrült tempóban változó divat t
       website: ' https://meminime.hu',
       facebook: 'https://www.facebook.com/Minimelimited?locale=hu_HU',
       instagram: 'https://www.instagram.com/minime_limited/'
-      
     },
     gallery: [
-      { id: 'm-1', title: 'Structural Coat', year: '2024', description: 'Architectural coat with geometric panels and minimalist silhouette in neutral tones'},
-      { id: 'm-2', title: 'Deconstructed Dress', year: '2024', description: 'Avant-garde dress with asymmetric draping and exposed construction details'},
-      { id: 'm-3', title: 'Sculptural Jacket', year: '2023', description: 'Oversized jacket with bold structural elements and clean lines'},
-      { id: 'm-4', title: 'Minimal Collection', year: '2023', description: 'Monochromatic ensemble emphasizing form and negative space'},
-      { id: 'm-5', title: 'Textile Experiment', year: '2024', description: 'Innovative garment combining traditional and experimental textile techniques'},
-      { id: 'm-6', title: 'Conceptual Piece', year: '2023', description: 'Wearable art piece exploring the boundaries of fashion and sculpture'}
+      {
+        id: 'm-1',
+        image: '/images/minime/m-work-01.jpg',
+        title: 'Structural Coat',
+        year: '2024',
+        description: 'Architectural coat with geometric panels and minimalist silhouette in neutral tones'
+      },
+      {
+        id: 'm-2',
+        image: '/images/minime/m-work-03.jpg',
+        title: 'Deconstructed Dress',
+        year: '2024',
+        description: 'Avant-garde dress with asymmetric draping and exposed construction details'
+      },
+      {
+        id: 'm-3',
+        image: '/images/minime/m-work-05.jpg',
+        title: 'Sculptural Jacket',
+        year: '2023',
+        description: 'Oversized jacket with bold structural elements and clean lines'
+      },
+      {
+        id: 'm-4',
+        image: '/images/minime/m-work-02.jpg',
+        title: 'Minimal Collection',
+        year: '2023',
+        description: 'Monochromatic ensemble emphasizing form and negative space'
+      },
+      {
+        id: 'm-5',
+        image: '/images/minime/m-work-06.jpg',
+        title: 'Textile Experiment',
+        year: '2024',
+        description: 'Innovative garment combining traditional and experimental textile techniques'
+      },
+      {
+        id: 'm-6',
+        image: '/images/minime/m-work-04.jpg',
+        title: 'Conceptual Piece',
+        year: '2023',
+        description: 'Wearable art piece exploring the boundaries of fashion and sculpture'
+      }
     ]
   },
 
- 'magyar-balint': {
+  'magyar-balint': {
     name: 'Magyar Bálint Dániel',
-   discipline: 'MBD Keramik',
-   bio: `A kerámiában magát a Földet keresem, amelyen élünk. A természet alkotóelemei, a legtisztább földanyagok keverednek össze az agyagokban és a mázakban, az égetés pedig egy új, önálló egzisztenciát ad egy tárgynak, melyben benne van minden, ami körbevesz minket. Magastüzű kerámiákat készítek, fölszínekkel dolgozom és a keleti formavilág bűvöletében élek. Minden tárgyamban benne van a megtervezett funkcionalitás, és a használat közbeni komfort-érzet és a természetesség szeretete.
+    discipline: 'MBD Keramik',
+    bio: `A kerámiában magát a Földet keresem, amelyen élünk. A természet alkotóelemei, a legtisztább földanyagok keverednek össze az agyagokban és a mázakban, az égetés pedig egy új, önálló egzisztenciát ad egy tárgynak, melyben benne van minden, ami körbevesz minket. Magastüzű kerámiákat készítek, fölszínekkel dolgozom és a keleti formavilág bűvöletében élek. Minden tárgyamban benne van a megtervezett funkcionalitás, és a használat közbeni komfort-érzet és a természetesség szeretete.
     
 Faipari és bölcsész végzettséggel rendelkezem, a kerámiára pedig egy hosszú útkeresés közben találtam rá. Ez a világ számomra végtelen lehetőségekkel rendelkezik. Kísérletezek, mázakat alkotok, összhangba hozom az elképzelésem az anyaggal, a szín és formavilággal, a hangulattal, aztán pedig fizikára és a kémiára bízom a tárgyat, a kiégett tárgy pedig egy történet részeként valakinél tovább él.
 
@@ -142,16 +313,57 @@ Egyszerű, konyhai kerámiákat készítek, illetve a keleti teakultúrák ismer
       website: ' mbdkeramik.com',
       etsy: 'https://www.etsy.com/people/1991t3sl39dqtwmj?ref=hdr_user_menu-profile',
       instagram: 'https://www.instagram.com/mbd_keramik/'
-      
     },
     gallery: [
-      { id: 'mbd-1', title: 'Structural Coat', year: '2024', description: 'Architectural coat with geometric panels and minimalist silhouette in neutral tones'},
-      { id: 'mbd-2', title: 'Deconstructed Dress', year: '2024', description: 'Avant-garde dress with asymmetric draping and exposed construction details'},
-      { id: 'mbd-3', title: 'Sculptural Jacket', year: '2023', description: 'Oversized jacket with bold structural elements and clean lines'},
-      { id: 'mbd-4', title: 'Minimal Collection', year: '2023', description: 'Monochromatic ensemble emphasizing form and negative space'},
-      { id: 'mbd-5', title: 'Textile Experiment', year: '2024', description: 'Innovative garment combining traditional and experimental textile techniques' },
-      { id: 'mbd-6', title: 'Textile Experiment', year: '2024', description: 'Innovative garment combining traditional and experimental textile techniques' },
-      { id: 'mbd-7', title: 'Conceptual Piece', year: '2023', description: 'Wearable art piece exploring the boundaries of fashion and sculpture'}
+      {
+        id: 'mbd-1',
+        image: '/images/magyar-balint/mbd-work-01.jpg',
+        title: 'Structural Coat',
+        year: '2024',
+        description: 'Architectural coat with geometric panels and minimalist silhouette in neutral tones'
+      },
+      {
+        id: 'mbd-2',
+        image: '/images/magyar-balint/mbd-work-02.jpg',
+        title: 'Deconstructed Dress',
+        year: '2024',
+        description: 'Avant-garde dress with asymmetric draping and exposed construction details'
+      },
+      {
+        id: 'mbd-3',
+        image: '/images/magyar-balint/mbd-work-03.jpg',
+        title: 'Sculptural Jacket',
+        year: '2023',
+        description: 'Oversized jacket with bold structural elements and clean lines'
+      },
+      {
+        id: 'mbd-4',
+        image: '/images/magyar-balint/mbd-work-04.jpg',
+        title: 'Minimal Collection',
+        year: '2023',
+        description: 'Monochromatic ensemble emphasizing form and negative space'
+      },
+      {
+        id: 'mbd-5',
+        image: '/images/magyar-balint/mbd-work-05.jpg',
+        title: 'Textile Experiment',
+        year: '2024',
+        description: 'Innovative garment combining traditional and experimental textile techniques'
+      },
+      {
+        id: 'mbd-6',
+        image: '/images/magyar-balint/mbd-work-06.jpg',
+        title: 'Textile Experiment',
+        year: '2024',
+        description: 'Innovative garment combining traditional and experimental textile techniques'
+      },
+      {
+        id: 'mbd-7',
+        image: '/images/magyar-balint/mbd-work-07.jpg',
+        title: 'Conceptual Piece',
+        year: '2023',
+        description: 'Wearable art piece exploring the boundaries of fashion and sculpture'
+      }
     ]
   },
 
@@ -186,12 +398,48 @@ Conferenciáján.
       instagram: 'https://instagram.com/telegdibalazs'
     },
     gallery: [
-      { id: 'tb-1', title: 'Light Refraction', year: '2024', description: 'Blown glass sculpture capturing and refracting light in crystalline forms'},
-      { id: 'tb-2', title: 'Transparent Layers', year: '2024', description: 'Layered glass piece with subtle color gradations and optical effects'},
-      { id: 'tb-3', title: 'Vessel Form', year: '2023', description: 'Elegant glass vessel with flowing organic shape and clear transparency'},
-      { id: 'tb-4', title: 'Architectural Series', year: '2023', description: 'Geometric glass sculpture inspired by modern architecture'},
-      { id: 'tb-5', title: 'Color Study', year: '2024', description: 'Blown glass with subtle color infusions and smooth surfaces'},
-      { id: 'tb-6', title: 'Kiln-Cast Form', year: '2023', description: 'Solid glass sculpture created through kiln-casting technique'}
+      {
+        id: 'tb-1',
+        image: '/images/telegdi-balazs/tb-work-06.jpg',
+        title: 'Light Refraction',
+        year: '2024',
+        description: 'Blown glass sculpture capturing and refracting light in crystalline forms'
+      },
+      {
+        id: 'tb-2',
+        image: '/images/telegdi-balazs/tb-work-01.jpg',
+        title: 'Transparent Layers',
+        year: '2024',
+        description: 'Layered glass piece with subtle color gradations and optical effects'
+      },
+      {
+        id: 'tb-3',
+        image: '/images/telegdi-balazs/tb-work-05.jpg',
+        title: 'Vessel Form',
+        year: '2023',
+        description: 'Elegant glass vessel with flowing organic shape and clear transparency'
+      },
+      {
+        id: 'tb-4',
+        image: '/images/telegdi-balazs/tb-work-02.jpg',
+        title: 'Architectural Series',
+        year: '2023',
+        description: 'Geometric glass sculpture inspired by modern architecture'
+      },
+      {
+        id: 'tb-5',
+        image: '/images/telegdi-balazs/tb-work-04.jpg',
+        title: 'Color Study',
+        year: '2024',
+        description: 'Blown glass with subtle color infusions and smooth surfaces'
+      },
+      {
+        id: 'tb-6',
+        image: '/images/telegdi-balazs/tb-work-03.jpg',
+        title: 'Kiln-Cast Form',
+        year: '2023',
+        description: 'Solid glass sculpture created through kiln-casting technique'
+      }
     ]
   }
 };

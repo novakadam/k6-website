@@ -63,13 +63,32 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
   const isEditMode = useEditMode();
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+useEffect(() => {
+  let stableState = false;        // false → nagy header, true → kicsi header
+  let lastScroll = window.scrollY;
+
+  const onScroll = () => {
+    const current = window.scrollY;
+    const direction = current > lastScroll ? "down" : "up";
+
+    // Lefelé görgetés — átvált kicsire, HA elértünk egy biztos pontot
+    if (!stableState && current > 120 && direction === "down") {
+      stableState = true;
+      setIsScrolled(true);
+    }
+
+    // Felfelé görgetés — visszavált nagyra, HA tényleg közel vagyunk a tetejéhez
+    if (stableState && current < 20 && direction === "up") {
+      stableState = false;
+      setIsScrolled(false);
+    }
+
+    lastScroll = current;
+  };
+
+  window.addEventListener("scroll", onScroll, { passive: true });
+  return () => window.removeEventListener("scroll", onScroll);
+}, []);
   useEffect(() => {
     if (isMobileMenuOpen) {
       document.body.style.overflow = 'hidden';
