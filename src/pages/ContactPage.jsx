@@ -84,7 +84,7 @@ import { toast } from '@/components/ui/use-toast';
                     <Mail className="w-6 h-6 text-gray-400 mt-1" />
                     <div>
                       <p className="font-medium mb-1"><EditableField as="span" isEditable={isEditMode} initialValue="E-mail" /></p>
-                      <EditableField as="a" href="mailto:info@k6alkotohaz.hu" className="text-gray-600 hover:text-gray-900" isEditable={isEditMode} initialValue="info@k6alkotohaz.hu" />
+                      <EditableField as="a" href="mailto:info@k6alkotohaz.hu" className="text-gray-600 hover:text-gray-900" isEditable={isEditMode} initialValue="faficeramics@gmail.com" />
                     </div>
                   </div>
 
