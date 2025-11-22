@@ -88,7 +88,6 @@ Rendszeresen tartok workshopokat különböző témákban.`,
       { id: 'lj-3', title: 'Fiber Study', year: '2023', description: 'Experimental weaving combining various natural fibers'},
       { id: 'lj-4', title: 'Natural Dyes Series', year: '2023', description: 'Collection of textiles colored with plant-based dyes'},
       { id: 'lj-5', title: 'Textured Weave', year: '2024', description: 'Intricate weaving with a highly tactile surface'},
-      { id: 'lj-6', title: 'Installation View', year: '2023', description: 'Textile installation in a gallery setting'}
     ]
   },
   'minime': {

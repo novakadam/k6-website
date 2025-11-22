@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="max-w-7xl mx-auto px-6">
                 <div className="flex flex-col text-left font-medium">
                      <p className="text-gray-600">
-                        <EditableField as="span" isEditable={isEditMode} initialValue="© 2025 K6 Alkotói műhely" />
+                        <EditableField as="span" isEditable={isEditMode} initialValue="© 2025 K6 Alkotó Műhelyház" />
                     </p>
                     <p className="text-gray-600">
                        <EditableField as="span" isEditable={isEditMode} initialValue="2000 Szentendre, Kőzúzó utca 6." />

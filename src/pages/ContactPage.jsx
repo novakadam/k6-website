@@ -147,7 +147,7 @@ import { toast } from '@/components/ui/use-toast';
                 <div className="relative overflow-hidden" style={{
                 borderRadius: '24px 24px 36px 36px'
               }}>
-                    <img alt="Map and photos of K6 studio location" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/k6-img-kapcsolat-img-mw0pE.png" />
+                    <img alt="Map and photos of K6 studio location" src="/images/etc/K6-img-kapcsolat-img.jpg" />
                 </div>
               </motion.div>
 

@@ -86,59 +86,58 @@ const ArtistGallery = ({
 }) => {
   const imageComponents = useMemo(() => ({
     'franta-agi': {
-      'fa-1': <img alt="Minimalist ceramic vessel by Franta Ági" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/kekrozsacsillagszonyeg-GMUCh.jpeg" />,
-      'fa-2': <img alt="Textured ceramic bowl by Franta Ági" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/3barany-NFvvl.jpeg" />,
-      'fa-3': <img alt="Abstract ceramic sculpture by Franta Ági" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/frantaagi_csillaghalvanybarack-7wWgl.jpeg" />,
-      'fa-4': <img alt="Delicate porcelain collection by Franta Ági" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/csillagfuzer-vPQdH.png" />,
-      'fa-5': <img alt="Elegant stoneware vase by Franta Ági" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/img_4816-mXHE1.jpeg" />,
-      'fa-6': <img alt="Organic ceramic piece by Franta Ági" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/2.csillagcsempe-eDNmE.jpeg" />
+      'fa-1': <img alt="Franta Ági artwork" src="/images/franta-agi/fa-work-01.jpg" />,
+      'fa-2': <img alt="Franta Ági artwork" src="/images/franta-agi/fa-work-04.jpg" />,
+      'fa-3': <img alt="Franta Ági artwork" src="/images/franta-agi/fa-work-03.jpg" />,
+      'fa-4': <img alt="Franta Ági artwork" src="/images/franta-agi/fa-work-02.jpg" />,
+      'fa-5': <img alt="Franta Ági artwork" src="/images/franta-agi/fa-work-06.jpg" />,
+      'fa-6': <img alt="Franta Ági artwork" src="/images/franta-agi/fa-work-05.jpg" />
     },
     'telegdi-balazs': {
-      'tb-1': <img alt="Blown glass sculpture by Telegdi Balázs" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/telegdi03-d1d0V.jpg" />,
-      'tb-2': <img alt="Layered glass art by Telegdi Balázs" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/telegdi07-Z4851.jpg" />,
-      'tb-3': <img alt="Elegant glass vessel by Telegdi Balázs" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/telegdi08-i15TX.jpg" />,
-      'tb-4': <img alt="Geometric glass sculpture by Telegdi Balázs" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/telegdi02-CVQ4X.jpg" />,
-      'tb-5': <img alt="Colorful blown glass by Telegdi Balázs" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/telegdi09-wvOYh.jpg" />,
-      'tb-6': <img alt="Solid kiln-cast glass by Telegdi Balázs" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/telegdi04-bUjh3.jpg" />
+      'tb-1': <img alt="Telegdi Balázs artwork" src="/images/telegdi-balazs/tb-work-06.jpg" />,
+      'tb-2': <img alt="Telegdi Balázs artwork" src="/images/telegdi-balazs/tb-work-01.jpg" />,
+      'tb-3': <img alt="Telegdi Balázs artwork" src="/images/telegdi-balazs/tb-work-05.jpg" />,
+      'tb-4': <img alt="Telegdi Balázs artwork" src="/images/telegdi-balazs/tb-work-02.jpg" />,
+      'tb-5': <img alt="Telegdi Balázs artwork" src="/images/telegdi-balazs/tb-work-04.jpg" />,
+      'tb-6': <img alt="Telegdi Balázs artwork" src="/images/telegdi-balazs/tb-work-03.jpg" />
     },
     'minime': {
-      'm-1': <img alt="Architectural coat by Minime" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/em0c9927-CdgFi.jpg" />,
-      'm-2': <img alt="Deconstructed dress by Minime" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/em0c1278-FbOOi.jpg" />,
-      'm-3': <img alt="Oversized sculptural jacket by Minime" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/em0c1445-NSWH6.jpg" />,
-      'm-4': <img alt="Monochromatic ensemble by Minime" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/em0c1430-sDrsf.jpg" />,
-      'm-5': <img alt="Experimental textile garment by Minime" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/em0c9614-iRioM.jpg" />,
-      'm-6': <img alt="Conceptual wearable art by Minime" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/em0c1502-5qu4W.jpg" />
+      'm-1': <img alt="Minime artwork" src="/images/minime/m-work-01.jpg" />,
+      'm-2': <img alt="Minime artwork" src="/images/minime/m-work-03.jpg" />,
+      'm-3': <img alt="Minime artwork" src="/images/minime/m-work-05.jpg" />,
+      'm-4': <img alt="Minime artwork" src="/images/minime/m-work-02.jpg" />,
+      'm-5': <img alt="Minime artwork" src="/images/minime/m-work-06.jpg" />,
+      'm-6': <img alt="Minime artwork" src="/images/minime/m-work-04.jpg" />
     },
     'korponay-csilla': {
-      'kc-1': <img alt="Expressive ceramic bowl by Korponay Csilla" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/untitled-shoot--_dsc3754--180705--krcs-iIpOX.jpg" />,
-      'kc-2': <img alt="Abstract ceramic vessel by Korponay Csilla" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/dsc_4305-92AQN.jpg" />,
-      'kc-3': <img alt="Architectural ceramic sculpture by Korponay Csilla" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/korponay-keraimia-8-jKSdq.jpg" />
+      'kc-1':  <img alt="Korponay Csilla artwork" src="/images/korponay-csilla/kc-work-01.jpg" />,
+      'kc-2': <img alt="Korponay Csilla artwork" src="/images/korponay-csilla/kc-work-02.jpg" />,
+      'kc-3': <img alt="Korponay Csilla artwork" src="/images/korponay-csilla/kc-work-03.jpg" />
     },
     'kaiser-fanni': {
-      'kf-1': <img alt="Minimalist pendant light by Kaiser Fanni" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/saro3861-DWByW.jpg" />,
-      'kf-2': <img alt="Sculptural floor lamp by Kaiser Fanni" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/saro3881-kBNWj.jpg" />,
-      'kf-3': <img alt="Architectural wall sconce by Kaiser Fanni" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/saro3806-BpaIw.jpg" />,
-      'kf-4': <img alt="Minimalist pendant light by Kaiser Fanni" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/fafi-muhely-retus-9AKFO.jpg" />,
-      'kf-5': <img alt="Sculptural floor lamp by Kaiser Fanni" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/20250308_144239-0N3dM.jpg" />,
-      'kf-6': <img alt="Architectural wall sconce by Kaiser Fanni" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/img_20240220_121407_250-Lkr0m.jpg" />,
-      'kf-7': <img alt="Architectural wall sconce by Kaiser Fanni" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/img_20240220_121407_250-Lkr0m.jpg" />
+      'kf-1': <img alt="Kaiser Fanni artwork" src="/images/kaiser-fanni/kf-work-02.jpg" />,
+      'kf-2': <img alt="Kaiser Fanni artwork" src="/images/kaiser-fanni/kf-work-05.jpg" />,
+      'kf-3': <img alt="Kaiser Fanni artwork" src="/images/kaiser-fanni/kf-work-04.jpg" />,
+      'kf-4': <img alt="Kaiser Fanni artwork" src="/images/kaiser-fanni/kf-work-03.jpg" />,
+      'kf-5': <img alt="Kaiser Fanni artwork" src="/images/kaiser-fanni/kf-work-06.jpg" />,
+      'kf-6': <img alt="Kaiser Fanni artwork" src="/images/kaiser-fanni/kf-work-07.jpg" />,
+      'kf-7': <img alt="Kaiser Fanni artwork" src="/images/kaiser-fanni/kf-work-01.jpg" />,
     },
     'magyar-balint': {
-      'mbd-1': <img alt="Minimalist pendant light by Kaiser Fanni" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/000_2057v-7af0X.jpg" />,
-      'mbd-2': <img alt="Sculptural floor lamp by Kaiser Fanni" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/000_1679-1-JmYiC.jpg" />,
-      'mbd-3': <img alt="Architectural wall sconce by Kaiser Fanni" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/000_0654v-EVB6i.jpg" />,
-      'mbd-4': <img alt="Minimalist pendant light by Kaiser Fanni" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/000_1211-T9oiU.jpg" />,
-      'mbd-5': <img alt="Sculptural floor lamp by Kaiser Fanni" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/000_1532-ahlQH.jpg" />,
-      'mbd-6': <img alt="Architectural wall sconce by Kaiser Fanni" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/000_0830-QHvDj.jpg" />,
-      'mbd-7': <img alt="Architectural wall sconce by Kaiser Fanni" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/000_0187-sytYF.jpg" />
+      'mbd-1': <img alt="Magya Bálint Dániel artwork" src="/images/magyar-balint/mbd-work-01.jpg" />,
+      'mbd-2': <img alt="Magya Bálint Dániel artwork" src="/images/magyar-balint/mbd-work-02.jpg" />,
+      'mbd-3': <img alt="Magya Bálint Dániel artwork" src="/images/magyar-balint/mbd-work-03.jpg" />,
+      'mbd-4': <img alt="Magya Bálint Dániel artwork" src="/images/magyar-balint/mbd-work-04.jpg" />,
+      'mbd-5': <img alt="Magya Bálint Dániel artwork" src="/images/magyar-balint/mbd-work-05.jpg" />,
+      'mbd-6': <img alt="Magya Bálint Dániel artwork" src="/images/magyar-balint/mbd-work-06.jpg" />,
+      'mbd-7': <img alt="Magya Bálint Dániel artwork" src="/images/magyar-balint/mbd-work-07.jpg" />,
     },
     'lantos-judit': {
-      'lj-1': <img alt="Woven landscape textile art by Lantos Judit" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/img_20250325_092354_edit_1404808335717930-gpEQp.jpg" />,
-      'lj-2': <img alt="Hand-dyed silk sculpture by Lantos Judit" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/lantos-judit-viraggal-5bt7M.jpg" />,
-      'lj-3': <img alt="Experimental fiber art by Lantos Judit" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/img_20250628_121014_edit_3863837277994267-Hw6Cr.jpg" />,
-      'lj-4': <img alt="Textiles colored with natural dyes by Lantos Judit" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/img_20250321_091110_edit_1304905394197757-OLhN6.jpg" />,
-      'lj-5': <img alt="Highly textured weaving by Lantos Judit" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/img_20241004_121618_edit_1506385263035763-oMk7E.jpg" />,
-      'lj-6': <img alt="Highly textured weaving by Lantos Judit" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/empty-IPVcC.jpg" />
+      'lj-1': <img alt="Lantos Judit artwork" src="/images/lantos-judit/lj-work-01.jpg" />,
+      'lj-2': <img alt="Lantos Judit artwork" src="/images/lantos-judit/lj-work-04.jpg" />,
+      'lj-3': <img alt="Lantos Judit artwork" src="/images/lantos-judit/lj-work-02.jpg" />,
+      'lj-4': <img alt="Lantos Judit artwork" src="/images/lantos-judit/lj-work-03.jpg" />,
+      'lj-5': <img alt="Lantos Judit artwork" src="/images/lantos-judit/lj-work-05.jpg" />,
     }
   }), [artistId]);
   const currentArtistImages = imageComponents[artistId] || {};
@@ -180,29 +179,29 @@ const ArtistPortraits = ({
   const portraits = {
     'franta-agi': <img alt="Portrait of Franta Ági" className="w-full h-full object-cover" style={{
       borderRadius: '48px 48px 12px 12px'
-    }} src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/profilkep-csizikbalazs-UhKvW.jpeg" />,
+    }} src="/images/franta-agi/fa-profil.jpg" />,
     'telegdi-balazs': <img alt="Portrait of Telegdi Balázs" className="w-full h-full object-cover" style={{
       borderRadius: '12px 48px 48px 12px'
-    }} src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/telegdibalazs_portre_telegdibalazs-LK9Fq.jpg" />,
+    }} src="/images/telegdi-balazs/tb-portre.jpg" />,
     'minime': <img alt="Portrait of Minime" className="w-full h-full object-cover" style={{
       borderRadius: '36px 12px 36px 12px'
-    }} src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/img_3515-fZ4OW.jpg" />,
+    }} src="/images/minime/m-portre-07.jpg" />,
     'korponay-csilla': <img alt="Portrait of Korponay Csilla" className="w-full h-full object-cover" style={{
       borderRadius: '12px 36px 12px 36px'
-    }} src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/korponai-csilla-portre-4kIBG.jpg" />,
+    }} src="/images/korponay-csilla/kc-portre.jpg" />,
     'kaiser-fanni': <img alt="Portrait of Kaiser Fanni" className="w-full h-full object-cover" style={{
       borderRadius: '48px 12px 48px 12px'
     }} src="/images/kaiser-fanni/kf-portre.jpg" />,
     'magyar-balint': <img alt="Portrait of Kaiser Fanni" className="w-full h-full object-cover" style={{
       borderRadius: '48px 12px 48px 12px'
-    }} src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/mbd-portre-VgUZh.jpg" />,
+    }} src="/images/magyar-balint/mbd-portre.jpg" />,
     'lantos-judit': <img alt="Portrait of Lantos Judit" className="w-full h-full object-cover" style={{
       borderRadius: '24px 24px 48px 48px'
-    }} src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/lantos-judit-portre-is1AV.jpg" />
+    }} src="/images/lantos-judit/lj-portre.jpg" />
   };
   return portraits[artistId] || <img className="w-full h-full object-cover" style={{
     borderRadius: '48px 48px 12px 12px'
-  }} alt="Portrait of the artist" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/profilkep-csizikbalazs-UhKvW.jpeg" />;
+  }} alt="Portrait of the artist" src="/images/kaiser-fanni/kf-portre.jpg" />;
 };
 const ArtistPage = () => {
   const {

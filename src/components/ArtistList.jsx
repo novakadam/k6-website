@@ -13,28 +13,28 @@ const ArtistList = () => {
   const getArtworkImage = (artist) => {
     if (artist.gallery && artist.gallery.length > 0) {
       const firstImageId = artist.gallery[0].id;
-      if (firstImageId.startsWith('fa-')) return "https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/kekrozsacsillagszonyeg-GMUCh.jpeg";
-      if (firstImageId.startsWith('tb-')) return "https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/telegdi03-d1d0V.jpg";
-      if (firstImageId.startsWith('m-')) return "https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/em0c9927-CdgFi.jpg";
-      if (firstImageId.startsWith('kc-')) return "https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/untitled-shoot--_dsc3754--180705--krcs-iIpOX.jpg";
-      if (firstImageId.startsWith('kf-')) return "https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/20250308_144239-0N3dM.jpg";
-      if (firstImageId.startsWith('mbd-')) return "https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/000_2057v-7af0X.jpg";
-      if (firstImageId.startsWith('lj-')) return "https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/img_20250325_092354_edit_1404808335717930-gpEQp.jpg";
+      if (firstImageId.startsWith('fa-')) return "/images/franta-agi/fa-work-01.jpg";
+      if (firstImageId.startsWith('tb-')) return "/images/telegdi-balazs/tb-work-01.jpg";
+      if (firstImageId.startsWith('m-')) return "/images/minime/m-work-01.jpg";
+      if (firstImageId.startsWith('kc-')) return "/images/korponay-csilla/kc-work-01.jpg";
+      if (firstImageId.startsWith('kf-')) return "/images/kaiser-fanni/kf-work-06.jpg";
+      if (firstImageId.startsWith('mbd-')) return "/images/magyar-balint/mbd-work-01.jpg";
+      if (firstImageId.startsWith('lj-')) return "/images/lantos-judit/lj-work-01.jpg";
     }
-    return 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800'; // fallback
+    return '/images/kaiser-fanni/kf-work-06.jpg'; // fallback
   };
 
   const getPortraitImage = (id) => {
     const portraits = {
-      'franta-agi': 'https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/profilkep-csizikbalazs-UhKvW.jpeg',
-      'telegdi-balazs': 'https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/telegdibalazs_portre_telegdibalazs-LK9Fq.jpg',
-      'minime': 'https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/img_3515-fZ4OW.jpg',
-      'korponay-csilla': 'https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/korponai-csilla-portre-4kIBG.jpg',
+      'franta-agi': '/images/franta-agi/fa-profil.jpg',
+      'telegdi-balazs': '/images/telegdi-balazs/tb-portre.jpg',
+      'minime': '/images/minime/m-portre-07.jpg',
+      'korponay-csilla': '/images/korponay-csilla/kc-portre.jpg',
       'kaiser-fanni': '/images/kaiser-fanni/kf-portre.jpg',
-      'magyar-balint': 'https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/mbd-portre-VgUZh.jpg',
-      'lantos-judit': 'https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/lantos-judit-portre-is1AV.jpg'
+      'magyar-balint': '/images/magyar-balint/mbd-portre.jpg',
+      'lantos-judit': '/images/lantos-judit/lj-portre.jpg'
     };
-    return portraits[id] || 'https://images.unsplash.com/photo-1586487069505-2fb34eea9950'; // fallback
+    return portraits[id] || '/images/kaiser-fanni/kf-portre.jpg'; // fallback
   };
 
   return (

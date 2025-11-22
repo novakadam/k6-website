@@ -63,7 +63,7 @@ const HomePage = () => {
                 className="w-full mb-16"
               >
                 <div className="relative w-full h-[300px] md:h-[450px] overflow-hidden" style={{ borderRadius: '24px 24px 36px 36px' }}>
-                  <img alt="Two abstract green glass sculptures on a rock next to a partial view of a modern building" className="w-full h-full object-cover" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/c759566e1237525cb3b399e02bd4f3e5.png" />
+                  <img alt="Two abstract green glass sculptures on a rock next to a partial view of a modern building" className="w-full h-full object-cover" src="/images/etc/k6-img-izelito.jpg" />
                 </div>
                  <div className="max-w-[1000px] mx-auto px-6 mt-8">
                     <EditableField
