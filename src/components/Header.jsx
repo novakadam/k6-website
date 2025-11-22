@@ -41,7 +41,7 @@ const MobileNav = ({
       }} className="flex flex-col items-center justify-center h-full" onClick={e => e.stopPropagation()}>
             <div className="mb-12">
               <Link to="/" onClick={onClose}>
-                <img alt="K6 Creative Studios Logo" className="h-24 w-auto" src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/logo-k6_ok-1-zQYAd.png" />
+                <img alt="K6 Creative Studios Logo" className="h-24 w-auto" src="/images/etc/logo-K6-uj-v1.png" />
               </Link>
             </div>
             <nav className="flex flex-col items-center gap-6 text-center">
@@ -90,7 +90,7 @@ const Header = () => {
         <div className="max-w-7xl mx-auto px-6 transition-all duration-300">
           <div className={`flex justify-between items-center transition-all duration-300 ${isScrolled || location.pathname !== '/' ? 'py-4' : 'py-8'}`}>
             <Link to="/" className="block hover:opacity-80 transition-opacity z-50">
-              <img alt="K6 Creative Studios Logo" className={`no-frame ${logoHeight} w-auto transition-all duration-300`} src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/logo-k6-uj-v1-ajsac.png" />
+              <img alt="K6 Creative Studios Logo" className={`no-frame ${logoHeight} w-auto transition-all duration-300`} src="/images/etc/logo-K6-uj-v1.png" />
             </Link>
             
             {/* Desktop Navigation */}
