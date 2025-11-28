@@ -157,6 +157,27 @@ Kisműhelyemben személyes foglalkozást is tartok, megbeszélés szerint.
         title: 'Installation Piece',
         year: '2023',
         description: 'Ceramic sculpture designed for architectural installation with bold presence'
+      },
+      {
+        id: 'kc-4',
+        image: '/images/korponay-csilla/kc-work-04.jpg',
+        title: 'Korponay Csilla artwork',
+        year: '2023',
+        description: '...'
+      },
+      {
+        id: 'kc-5',
+        image: '/images/korponay-csilla/kc-work-05.jpg',
+        title: 'Korponay Csilla artwork',
+        year: '2023',
+        description: '...'
+      },
+       {
+        id: 'kc-6',
+        image: '/images/korponay-csilla/kc-work-06.jpg',
+        title: 'Korponay Csilla artwork',
+        year: '2023',
+        description: '...'
       }
     ]
   },

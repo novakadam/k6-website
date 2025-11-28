@@ -92,15 +92,14 @@ import { toast } from '@/components/ui/use-toast';
                     <Phone className="w-6 h-6 text-gray-400 mt-1" />
                     <div>
                       <p className="font-medium mb-1"><EditableField as="span" isEditable={isEditMode} initialValue="Telefon" /></p>
-                      <EditableField as="p" className="text-gray-600" isEditable={isEditMode} initialValue="+36 1 234 5678" />
+                      <EditableField as="p" className="text-gray-600" isEditable={isEditMode} initialValue="+3620 441 1458" />
                     </div>
                   </div>
                    <div>
-                      <p className="font-medium mb-1"><EditableField as="span" isEditable={isEditMode} initialValue="Nyitvatartási idő" /></p>
+                      <p className="font-medium mb-1"><EditableField as="span" isEditable={isEditMode} initialValue="Nyitvatartás:" /></p>
                        <div className="space-y-1 text-gray-600">
-                        <p>Kedd - Péntek: 10:00 - 18:00</p>
-                        <p>Szombat: 11:00 - 16:00</p>
-                        <p>Vasárnap - Hétfő: Zárva</p>
+                        előre megbeszélt időpontban
+                        
                       </div>
                   </div>
                 </div>
