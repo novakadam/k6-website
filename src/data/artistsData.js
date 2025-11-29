@@ -415,8 +415,8 @@ Conferenciáján.
 `,
     contact: {
       email: 'info@telegdibb.com',
-      website: 'https://telegdibalazs.com',
-      instagram: 'https://instagram.com/telegdibalazs'
+      website: 'telegdibb.com',
+      instagram: 'https://www.instagram.com/telegdibb?igsh=ZnpyNTYxb3NvZncz'
     },
     gallery: [
       {
