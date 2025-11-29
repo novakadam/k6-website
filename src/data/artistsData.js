@@ -58,7 +58,7 @@ export const artistsData = {
 
   'kaiser-fanni': {
     name: 'Kaiser Fanni',
-    discipline: 'Keramikus',
+    discipline: 'Fafi ceramics',
     bio: `Az agyaggal való munka számomra a lassulás tere. Egy biztonságos, csendes hely, ahol a külvilág zajai megszűnnek, és csak a jelen pillanat számít. A kézzel formált anyag szabadságot ad: minden mozdulat nyomot hagy, és közben valami maradandó születik.
 
 Kerámiáim magas tűzben készülnek, tartósak, időtállóak. Szeretem az anyagok találkozását: az uszadékfa természetességét, az üveg áttetsző finomságát, vagy az arany csillogását a durva, matt felület mellett. Az ellentétek játékából alakul ki az az egyedi hangulat, amit keresek.

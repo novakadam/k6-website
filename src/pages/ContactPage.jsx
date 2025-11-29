@@ -146,7 +146,7 @@ import { toast } from '@/components/ui/use-toast';
                 <div className="relative overflow-hidden" style={{
                 borderRadius: '24px 24px 36px 36px'
               }}>
-                    <img alt="Map and photos of K6 studio location" src="/images/etc/K6-img-kapcsolat-img.jpg" />
+                    <img alt="Map and photos of K6 studio location" src="/images/etc/K6-img-kapcsolat-img.png" />
                 </div>
               </motion.div>
 

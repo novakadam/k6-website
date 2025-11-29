@@ -12,6 +12,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@media (prefers-color-scheme: dark) {
+  .site-logo {
+    content: url('/images/etc/logo-k6-white.png');
+  }
+}
+
+:root {
+  color-scheme: light;
+}
+
 * {
   @apply transition-colors duration-300;
 }
