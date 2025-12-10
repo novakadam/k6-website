@@ -104,7 +104,7 @@ const ArtistPortraits = ({ artistId }) => {
         alt="Portrait of Franta Ági"
         className="w-full h-full object-cover"
         style={{ borderRadius: '48px 48px 12px 12px' }}
-        src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/profilkep-csizikbalazs-UhKvW.jpeg"
+        src="/images/franta-agi/fa-profil.jpg"
       />
     ),
     'telegdi-balazs': (
@@ -112,7 +112,7 @@ const ArtistPortraits = ({ artistId }) => {
         alt="Portrait of Telegdi Balázs"
         className="w-full h-full object-cover"
         style={{ borderRadius: '12px 48px 48px 12px' }}
-        src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/telegdibalazs_portre_telegdibalazs-LK9Fq.jpg"
+        src="/images/telegdi-balazs/tb-portre.jpg"
       />
     ),
     minime: (
@@ -120,7 +120,7 @@ const ArtistPortraits = ({ artistId }) => {
         alt="Portrait of Minime"
         className="w-full h-full object-cover"
         style={{ borderRadius: '36px 12px 36px 12px' }}
-        src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/img_3515-fZ4OW.jpg"
+        src="/images/minime/m-portre-07.jpg"
       />
     ),
     'korponay-csilla': (
@@ -128,7 +128,7 @@ const ArtistPortraits = ({ artistId }) => {
         alt="Portrait of Korponay Csilla"
         className="w-full h-full object-cover"
         style={{ borderRadius: '12px 36px 12px 36px' }}
-        src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/korponai-csilla-portre-4kIBG.jpg"
+        src="/images/korponay-csilla/kc-portre.jpg"
       />
     ),
     'kaiser-fanni': (
@@ -144,7 +144,7 @@ const ArtistPortraits = ({ artistId }) => {
         alt="Portrait of Magyar Bálint Dániel"
         className="w-full h-full object-cover"
         style={{ borderRadius: '48px 12px 48px 12px' }}
-        src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/mbd-portre-VgUZh.jpg"
+        src="/images/magyar-balint/mbd-portre.jpg"
       />
     ),
     'lantos-judit': (
@@ -152,7 +152,7 @@ const ArtistPortraits = ({ artistId }) => {
         alt="Portrait of Lantos Judit"
         className="w-full h-full object-cover"
         style={{ borderRadius: '24px 24px 48px 48px' }}
-        src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/lantos-judit-portre-is1AV.jpg"
+        src="/images/lantos-judit/lj-portre.jpg"
       />
     )
   };
@@ -163,7 +163,7 @@ const ArtistPortraits = ({ artistId }) => {
         className="w-full h-full object-cover"
         style={{ borderRadius: '48px 48px 12px 12px' }}
         alt="Portrait of the artist"
-        src="https://horizons-cdn.hostinger.com/dc70d3c6-523e-4650-8771-66694fd6f85b/profilkep-csizikbalazs-UhKvW.jpeg"
+        src="/images/lantos-judit/lj-portre.jpg"
       />
     )
   );
