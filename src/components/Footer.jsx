@@ -15,6 +15,10 @@ const Footer = () => {
                     <p className="text-gray-600">
                        <EditableField as="span" isEditable={isEditMode} initialValue="2000 Szentendre, Kőzúzó utca 6." />
                     </p>
+                    <p className="mt-6 text-sm text-gray-500">
+                        powered by{' '}
+                        <a href="https://www.karcmedia.com" target="_blank" rel="noopener" className="underline underline-offset-2 hover:text-gray-700">Karc Média</a>
+                    </p>
                 </div>
             </div>
         </footer>
