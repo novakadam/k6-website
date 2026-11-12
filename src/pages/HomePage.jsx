@@ -6,7 +6,6 @@ import ArtistList from '@/components/ArtistList';
 import HeroImage from '@/components/HeroImage';
 import EditableField from '@/components/EditableField';
 import { useEditMode } from '@/hooks/useEditMode';
-import UpcomingEvents from '@/components/UpcomingEvents';
 
 const HomePage = () => {
   const isEditMode = useEditMode();
@@ -99,7 +98,6 @@ const HomePage = () => {
             </div>
           </section>
 
-          <UpcomingEvents />
 
         </main>
       </div>

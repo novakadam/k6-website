@@ -143,10 +143,24 @@ import { toast } from '@/components/ui/use-toast';
               duration: 0.8,
               delay: 0.4
             }}>
-                <div className="relative overflow-hidden" style={{
+                <div className="relative overflow-hidden bg-[#ECE8D8] aspect-[4/5] md:aspect-[491/540]" style={{
                 borderRadius: '24px 24px 36px 36px'
               }}>
-                    <img alt="Map and photos of K6 studio location" src="/images/etc/K6-img-kapcsolat-img.png" />
+                  <iframe
+                    title="K6 Alkotó Műhelyház térképen"
+                    src="https://maps.google.com/maps?q=K%C5%91z%C3%BAz%C3%B3%20utca%206%2C%202000%20Szentendre&hl=hu&z=16&output=embed"
+                    className="absolute inset-0 w-full h-full border-0"
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    allowFullScreen
+                  />
+                </div>
+                <a href="https://www.google.com/maps/dir/?api=1&destination=Szentendre,+K%C5%91z%C3%BAz%C3%B3+u.+6,+2000" target="_blank" rel="noopener" className="inline-block mt-3 text-sm text-gray-600 underline underline-offset-2 hover:text-gray-900">
+                  Útvonaltervezés Google Térképpel
+                </a>
+                <div className="grid grid-cols-2 gap-4 mt-6">
+                  <img alt="A K6 műhelyház a Kőzúzó utca felől" src="/images/etc/k6-kapcsolat-haz.jpg" loading="lazy" className="w-full aspect-[23/25] object-cover" style={{ borderRadius: '24px 24px 36px 36px' }} />
+                  <img alt="A K6 műhelyház épülete az utcáról" src="/images/etc/k6-kapcsolat-utca.jpg" loading="lazy" className="w-full aspect-[23/25] object-cover" style={{ borderRadius: '24px 24px 36px 36px' }} />
                 </div>
               </motion.div>
 

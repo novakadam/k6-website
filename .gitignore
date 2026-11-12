@@ -5,3 +5,4 @@ dist
 .vscode
 files/
 .vercel
+.env*

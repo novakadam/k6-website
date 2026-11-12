@@ -13,9 +13,6 @@ const MobileNav = ({
     to: '/artists',
     label: 'Alkotók'
   }, {
-    to: '/events',
-    label: 'Események'
-  }, {
     to: '/contact',
     label: 'Kapcsolat'
   }];
@@ -118,11 +115,6 @@ useEffect(() => {
               borderRadius: '8px 8px 24px 24px'
             }}>
                 <EditableField as="span" isEditable={isEditMode} initialValue="Alkotók" />
-              </Link>
-              <Link to="/events" className="px-5 py-2 text-black bg-transparent hover:bg-black hover:text-white transition-colors text-base font-medium" style={{
-              borderRadius: '8px 8px 24px 24px'
-            }}>
-                <EditableField as="span" isEditable={isEditMode} initialValue="Események" />
               </Link>
               <Link to="/contact" className="px-5 py-2 text-black bg-transparent hover:bg-black hover:text-white transition-colors text-base font-medium" style={{
               borderRadius: '8px 8px 24px 24px'
