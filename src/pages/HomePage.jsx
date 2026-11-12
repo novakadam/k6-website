@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import Seo from '@/components/Seo';
 import { motion } from 'framer-motion';
 import Header from '@/components/Header';
 import ArtistList from '@/components/ArtistList';
@@ -12,10 +12,7 @@ const HomePage = () => {
 
   return (
     <>
-      <Helmet>
-        <title>K6 Creative Studios - Contemporary Art & Design</title>
-        <meta name="description" content="A K6 egy élő, kortárs alkotói tér Szentendrén, ahol keramikusok, üvegművészek, textiltervezők és tárgyalkotók dolgoznak egy inspiráló közösségben." />
-      </Helmet>
+      <Seo description="A K6 egy élő, kortárs alkotói tér Szentendrén, ahol keramikusok, üvegművészek, textiltervezők és tárgyalkotók dolgoznak egymás mellett." />
 
       <div className="min-h-screen bg-[#FAF9F5]">
         <Header />

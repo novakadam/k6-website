@@ -1,7 +1,7 @@
 // src/pages/ArtistPage.jsx
 
 import React, { useState, useEffect } from 'react';
-import { Helmet } from 'react-helmet';
+import Seo from '@/components/Seo';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useParams } from 'react-router-dom';
 import { Mail, Globe, Instagram, X, ChevronLeft, ChevronRight, Facebook } from 'lucide-react';
@@ -202,6 +202,16 @@ const ArtistGallery = ({ artistId, onImageClick }) => {
   );
 };
 
+const metaDescription = (artist) => {
+  const text = (artist.bio || '').replace(/\s+/g, ' ').trim();
+  let out = '';
+  for (const sentence of text.split(/(?<=[.!?])\s+/)) {
+    if ((out + ' ' + sentence).trim().length > 160) break;
+    out = (out + ' ' + sentence).trim();
+  }
+  return out || `${artist.name}, ${(artist.discipline || 'alkotó').toLowerCase()} a szentendrei K6 Alkotó Műhelyházban.`;
+};
+
 const ArtistPage = () => {
   const { artistId } = useParams();
   const artist = artistsData[artistId];
@@ -228,9 +238,7 @@ const ArtistPage = () => {
 
   return (
     <>
-      <Helmet>
-        <title>{artist.name} – K6 Műhelyház</title>
-      </Helmet>
+      <Seo title={artist.name} description={metaDescription(artist)} />
 
       <div className="min-h-screen bg-[#FAF9F5] text-black">
         <Header />

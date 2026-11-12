@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import Seo from '@/components/Seo';
 import { motion } from 'framer-motion';
 import { Mail, MapPin, Phone } from 'lucide-react';
 import Header from '@/components/Header';
@@ -38,10 +38,7 @@ import { toast } from '@/components/ui/use-toast';
   };
 
   return <>
-      <Helmet>
-        <title>Kapcsolat - K6 Creative Studios</title>
-        <meta name="description" content="Lépj kapcsolatba a K6 Creative Studiosszal. Látogass el hozzánk, érdeklődj művészeinkről vagy egyeztessünk egy lehetséges együttműködésről." />
-      </Helmet>
+      <Seo title="Kapcsolat" description="A K6 Alkotó Műhelyház Szentendrén, a Kőzúzó u. 6. alatt található. Látogatás előre megbeszélt időpontban, írj vagy hívj minket." />
 
       <div className="min-h-screen bg-[#FAF9F5]">
         <Header />

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import Seo from '@/components/Seo';
 import { motion } from 'framer-motion';
 import Header from '@/components/Header';
 import ArtistList from '@/components/ArtistList';
@@ -11,10 +11,7 @@ const ArtistsPage = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Alkotóink - K6 Creative Studios</title>
-        <meta name="description" content="Ismerd meg a K6 tehetséges alkotóit, köztük keramikusokat, üvegművészeket, divattervezőket és tárgyalkotókat." />
-      </Helmet>
+      <Seo title="Alkotók" description="Ismerd meg a K6 alkotóit: keramikusok, üvegművészek, textiltervezők és tárgyalkotók, akik a szentendrei műhelyházban dolgoznak." />
 
       <div className="min-h-screen bg-[#FAF9F5]">
         <Header />
