@@ -148,15 +148,15 @@ import { toast } from '@/components/ui/use-toast';
               }}>
                   <iframe
                     title="K6 Alkotó Műhelyház térképen"
-                    src="https://maps.google.com/maps?q=K%C5%91z%C3%BAz%C3%B3%20utca%206%2C%202000%20Szentendre&hl=hu&z=16&output=embed"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1800!2d19.0676144!3d47.6600239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741d795465770f7%3A0x2e1e3e1587afa50a!2sK6%20Alkot%C3%B3%20M%C5%B1helyh%C3%A1z!5e0!3m2!1shu!2shu!4v1762940000000!5m2!1shu!2shu"
                     className="absolute inset-0 w-full h-full border-0"
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
                     allowFullScreen
                   />
                 </div>
-                <a href="https://www.google.com/maps/dir/?api=1&destination=Szentendre,+K%C5%91z%C3%BAz%C3%B3+u.+6,+2000" target="_blank" rel="noopener" className="inline-block mt-3 text-sm text-gray-600 underline underline-offset-2 hover:text-gray-900">
-                  Útvonaltervezés Google Térképpel
+                <a href="https://maps.app.goo.gl/jj7rbmm9wLy7W6518" target="_blank" rel="noopener" className="inline-block mt-3 text-sm text-gray-600 underline underline-offset-2 hover:text-gray-900">
+                  A K6 Alkotó Műhelyház a Google Térképen
                 </a>
                 <div className="grid grid-cols-2 gap-4 mt-6">
                   <img alt="A K6 műhelyház a Kőzúzó utca felől" src="/images/etc/k6-kapcsolat-haz.jpg" loading="lazy" className="w-full aspect-[23/25] object-cover" style={{ borderRadius: '24px 24px 36px 36px' }} />
